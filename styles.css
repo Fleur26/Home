@@ -1,0 +1,88 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: #E1EDE6;
+    justify-content: space-between;
+}
+
+.menu nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin-top: 38px;
+}
+
+.menu li {
+    display: inline;
+    font-size: 20px;
+    color: #2C2D35;
+    margin-right: 58px;
+
+}
+
+.menu li:hover{
+    color: #4a7454;
+}
+
+.logo{
+    width: 143px;
+    height: auto;
+
+    margin:  33px 497px 32px 165px;
+}
+
+.cart {
+    width: 22px;
+    height: 22px;
+
+    margin-top: 39px;
+    margin-right: 166px;   
+}
+
+.color_green{
+    color: #598D66;
+}
+
+.preview{
+    display: flex;
+    font-family: "Raleway", sans-serif;
+}
+
+.text__preview{
+    flex-direction: column;
+    margin: 145px 165px 144px 30px;
+    flex-wrap: wrap;
+    max-width: 540px;
+}
+
+.bird{
+    margin-left: 165px;
+}
+
+.text__preview__h{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.text__preview__p{
+    color:#86928B;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.preview__button{
+    background: none;
+    border: 1px solid;
+    padding: 21px 60px;
+    font-size: 20px;
+}
