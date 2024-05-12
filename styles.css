@@ -2,6 +2,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -11,9 +12,20 @@ header{
     justify-content: space-between;
 }
 
+.color_green{
+    color: #598D66;
+}
+
+.container {
+ margin: 0 165px 0px 165px;
+}
+
+/* Section navigation*/
+
 .menu nav{
     display: flex;
     list-style-type: none;
+    margin: 0 165px 0px 0px;
 }
 
 .menu ul {
@@ -34,6 +46,7 @@ header{
 }
 
 .logo{
+    margin: 0 0px 0px 165px;
     width: 143px;
     height: auto;
 
@@ -48,9 +61,8 @@ header{
     margin-right: 166px;   
 }
 
-.color_green{
-    color: #598D66;
-}
+
+/* Section preview*/
 
 .preview{
     display: flex;
@@ -85,4 +97,31 @@ header{
     border: 1px solid;
     padding: 21px 60px;
     font-size: 20px;
+}
+
+.preview__button:hover{
+    color: #76c289;
+}
+
+section{
+    margin-bottom: 70px;
+}
+
+/* Section reproductions*/
+
+.reproductions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rep__nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.rep__nav li {
+    display: inline;
+    font-size: 20px;
+    color: #2C2D35;
+    margin-right: 58px;
 }
