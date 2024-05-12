@@ -25,7 +25,6 @@ header{
 .menu nav{
     display: flex;
     list-style-type: none;
-    margin: 0 165px 0px 0px;
 }
 
 .menu ul {
@@ -58,7 +57,7 @@ header{
     height: 22px;
 
     margin-top: 39px;
-    margin-right: 166px;   
+    margin-right: 166px;  
 }
 
 
@@ -111,7 +110,6 @@ section{
 
 .reproductions {
     display: flex;
-    justify-content: space-between;
 }
 
 .rep__nav{
@@ -121,7 +119,12 @@ section{
 
 .rep__nav li {
     display: inline;
-    font-size: 20px;
+    margin-right: 32px;
+}
+
+.rep_h{
+    font-size: 40px;
     color: #2C2D35;
-    margin-right: 58px;
+    font-weight: 500;
+    margin-right: 427px;
 }
