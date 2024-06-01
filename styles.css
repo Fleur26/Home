@@ -118,7 +118,6 @@ section{
 
 .rep__nav li {
     display: inline;
-    margin-right: 32px;
 }
 
 .rep_h{
@@ -137,7 +136,11 @@ section{
     margin-right: 32px;
     font-weight: 500;
 }
+.rep_prod_t{
+    display: none;
+}
 .active{
     background-color: #376B44;
     color: white;
+    display: block;
 }
