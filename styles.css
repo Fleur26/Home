@@ -149,3 +149,31 @@ section{
 .active__text{
     display: flex;
 }
+
+/* Section reproductions France/Germany/England*/
+
+.rep_prod_prod{
+    background-color: #E1EDE6;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.painter{
+    font-weight: 18px;
+    color: #86928B;
+}
+
+.paint__name{
+    font-size: 30px;
+    color: #2C2D35;
+}
+
+.p_desription{
+    font-size: 18px;
+    color: #2C2D35;
+}
+
+.p_price{
+    font-size: 24px;
+    color: #598D66;
+}
