@@ -157,7 +157,9 @@ section{
     padding: 20px;
     padding-bottom: 30px;
 }
-
+.rep_prod_prod p{
+    margin: 0;
+}
 .painter{
     font-weight: 18px;
     color: #86928B;
