@@ -38,19 +38,30 @@
             <h3 class="rep_h">Репродукции</h3>
             <div class="rep__nav">
                 <ul class="rep_sections">
-                    <button data-toggle="tab" class="rep_section">Франция</button>
-                    <button data-toggle="tab" class="rep_section">Германия</button>
-                    <button data-toggle="tab" class="rep_section">Англия</button>
+                    <button data-bs-target="#france" class="rep_section">Франция</button>
+                    <button data-bs-target="#germany" class="rep_section">Германия</button>
+                    <button data-bs-target="#england" class="rep_section">Англия</button>
                 </ul>
             </div>
-
-            <section class="rep_prod">
-                <div class="rep_prod_t">
-                    text
-                </div>
-            </section>
         </section>
 
+        <section class="rep_prod">
+            <div id="france" class="rep_prod_t">
+                <div>
+                    <img src="" alt="">
+                    <p>text</p>
+                    <p>desctiption</p>
+                    <p>price</p>
+                    <button>in cart</button>
+                </div>
+            </div>
+            <div id="germany" class="rep_prod_t">
+                just lol
+            </div>
+            <div id="england" class="rep_prod_t">
+                not just lol
+            </div>
+        </section>
     </div>
 
     <script type="module" src="./src/index.js"></script>

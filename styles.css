@@ -126,6 +126,7 @@ section{
     font-weight: 500;
     margin-right: 427px;
 }
+
 .rep_section{
     border: none;
     color: #2C2D35;
@@ -139,8 +140,12 @@ section{
 .rep_prod_t{
     display: none;
 }
+
 .active{
     background-color: #376B44;
     color: white;
-    display: block;
+}
+
+.active__text{
+    display: flex;
 }
