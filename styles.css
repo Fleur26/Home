@@ -147,7 +147,9 @@ section{
 }
 
 .active__text{
-    display: flex;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 730px 30px 730px 30px 730px;
 }
 
 /* Section reproductions France/Germany/England*/
@@ -156,26 +158,32 @@ section{
     background-color: #E1EDE6;
     padding: 20px;
     padding-bottom: 30px;
-}
-.rep_prod_prod p{
-    margin: 0;
+    margin-right: 30px;
 }
 .painter{
     font-weight: 18px;
     color: #86928B;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .paint__name{
     font-size: 30px;
     color: #2C2D35;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .p_desription{
     font-size: 18px;
     color: #2C2D35;
+    margin-top: 0; 
+    margin-bottom: 30px;
 }
 
 .p_price{
     font-size: 24px;
     color: #598D66;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
