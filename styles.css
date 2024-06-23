@@ -147,13 +147,14 @@ section{
 }
 
 .active__text{
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 730px 30px 730px 30px 730px;
+    display: flex;
 }
 
 /* Section reproductions France/Germany/England*/
 
+.rep_prod_t{
+    
+}
 .rep_prod_prod{
     background-color: #E1EDE6;
     padding: 20px;
