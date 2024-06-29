@@ -1,6 +1,7 @@
 body{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
+    margin: 0%;
 }
 header{
     display: flex;
@@ -109,6 +110,7 @@ section{
 
 .reproductions {
     display: flex;
+    justify-content: space-between;
 }
 
 .rep__nav{
@@ -137,30 +139,32 @@ section{
     margin-right: 32px;
     font-weight: 500;
 }
-.rep_prod_t{
-    display: none;
-}
 
 .active{
     background-color: #376B44;
     color: white;
 }
 
-.active__text{
-    display: flex;
-}
 
 /* Section reproductions France/Germany/England*/
-
 .rep_prod_t{
-    
+    display: none;
+    justify-content: flex-start;
 }
+
+.active__text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .rep_prod_prod{
     background-color: #E1EDE6;
     padding: 20px;
     padding-bottom: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
+
 .painter{
     font-weight: 18px;
     color: #86928B;
@@ -187,4 +191,26 @@ section{
     color: #598D66;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+/* Section Intro*/
+.intro{
+    background-image: url('photo/Rectangle.png');
+    height: 574px;
+    display: flex;
+}
+
+.intro__text{
+    color: #FFFFFF;
+    max-width: 540px;
+}
+
+.color_yellow{
+    background-color: #EEDB6D;
+    border: none;
+}
+
+.intro_h h5{
+    display: inline-flex;
+    font-size: 40px;
 }
